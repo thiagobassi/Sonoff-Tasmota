@@ -1,6 +1,7 @@
 ## OS specific ########
 .DS_Store
 .fuse_hidden*
+*.pyc
 
 ## Project files ######
 .pioenvs
@@ -8,10 +9,16 @@
 .clang_complete
 .gcc-flags.json
 .cache
-sonoff/user_config_override.h
+tasmota/user_config_override.h
 build
+build_output
 firmware.map
 firmware.asm
+tasmota*.bin
+tasmota*.bin.gz
+tasmota*.map
+platformio_override.ini
+platformio_tasmota_cenv.ini
 
 ## Visual Studio Code specific ######
 .vscode
@@ -19,3 +26,4 @@ firmware.asm
 .vscode/c_cpp_properties.json
 .vscode/launch.json
 *.bak
+*.code-workspace
